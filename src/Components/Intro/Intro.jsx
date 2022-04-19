@@ -38,9 +38,11 @@ const Intro = () => {
                 <div style={{top:'-4%', left:'68%'}}>
                     <FloatingDiv image={crown} txt1='web' txt2='Developer'></FloatingDiv>
                 </div>
-                <div style={{top:'18rem', left:'0rem'}}>
+                <div style={{top:'18rem', left:'2rem'}}>
                     <FloatingDiv image={thumbup} txt1='Best Design' txt2='Award'></FloatingDiv>
                 </div>
+                <div className='blur' style={{background:'rgb(238 210 255)'}}></div>
+                <div className='blur' style={{background:'#c1f5ff', top:'17rem',width:'21rem', height:'11rem',left:'-9rem'}}></div>
         </div>
     </div>
   )
