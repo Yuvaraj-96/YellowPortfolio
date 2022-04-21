@@ -3,7 +3,9 @@ import './App.css';
 import Experience from './Components/Experience/Experience';
 import Intro from './Components/Intro/Intro';
 import Navbar from './Components/Navbar/Navbar';
+import Portfolio from './Components/Portfolio/Portfolio';
 import Services from './Components/Services/Services';
+import Testimonials from './Components/Testimonials/Testimonials';
 import Works from './Components/Works/Works';
 
 
@@ -15,6 +17,8 @@ function App() {
        <Services/>
        <Experience/>
        <Works/>
+       <Portfolio/>
+       <Testimonials/>
     </div>
    
    
