@@ -8,8 +8,12 @@ import profilePic1 from "../../img/profile1.jpg";
 import profilePic2 from "../../img/profile2.jpg";
 import profilePic3 from "../../img/profile3.jpg";
 import profilePic4 from "../../img/profile4.jpg";
+import { useContext } from 'react';
+import { themeContext } from '../../Context';
 
 const Testimonials = () => {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
     const clients = [
         {
           img: profilePic1,
@@ -33,9 +37,9 @@ const Testimonials = () => {
         },
       ];
   return (
-   <div className="t-wrapper">
+   <div className="t-wrapper" id='Testimonials'>
        <div className="t-heading">
-           <span>Clients always get</span>
+           <span>Clients always get </span>
            <span>Exceptional Work </span>
            <span>from me....</span>
            <div className="blur t-blur1" style={{background:'var(--purple)'}}></div>
