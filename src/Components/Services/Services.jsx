@@ -5,13 +5,18 @@ import Glasses from '../../img/glasses.png';
 import Humble from '../../img/humble.png';
 import Card from '../Card/Card';
 import Resume from '../../img/heartemoji.png';
+import { useContext } from 'react';
+import { themeContext } from '../../Context';
+
 
 
 const Services = () => {
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
   return (
    <div className="services">
        <div className="awesome">
-           <span> My Awesome</span>
+           <span style={{color:darkMode?'white':''}}> My Awesome</span>
            <span>services</span>
            <span>Lorem <br/>ispum</span>
            <a href={Resume} download>
