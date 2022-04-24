@@ -51,3 +51,24 @@
     top:13rem;
     left:-18rem;
 }
+
+@media (max-width: 500px){
+
+    .services{
+        margin-top: 0;
+        flex-direction: column;
+        gap:5rem;
+        height: 66rem;
+        padding: 0rem 0;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap:4rem;
+    }
+
+    .cards>*{
+        position: static;
+    }
+}

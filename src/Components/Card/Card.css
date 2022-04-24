@@ -35,3 +35,12 @@
     color:#5290fd;
 }
 
+@media (max-width: 500px){
+
+    .Card{
+        width:300px;
+        
+    }
+
+}
+

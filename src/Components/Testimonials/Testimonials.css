@@ -70,3 +70,12 @@
 
     
 }
+
+@media (max-width: 500px){
+    .t-wrapper{
+        padding: 0;
+    }
+    
+
+
+}

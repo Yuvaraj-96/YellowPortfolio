@@ -35,7 +35,7 @@ const Services = () => {
            transition={transition}
         //    style={{left:'18rem'}}
         >
-               <Card emoji={HeartEmoji} heading={'Design'} detail={"Figma,sketch,Photoshop"}/>                           
+               <Card emoji={HeartEmoji} heading={'Frontend'} detail={"HTML, CSS, ES6, React"}/>                           
            </motion.div>
            <motion.div
            initial={{ left: "-11rem", top: "12rem" }}
@@ -43,7 +43,7 @@ const Services = () => {
            transition={transition}
           // style={{top:'12rem',left:'-4rem'}}
            >
-               <Card emoji={Glasses} heading={'Developer'} detail={"HTML, CSS, JavaScript, React"}/>                           
+               <Card emoji={Glasses} heading={'Backend'} detail={"Node.js, Express.js, MongoDB"}/>                           
            </motion.div>
            <motion.div 
            initial={{ top: "19rem", left: "25rem" }}
@@ -51,7 +51,7 @@ const Services = () => {
            transition={transition}
            //style={{top:'19rem',left:'12rem'}}
            >
-              <Card emoji={Humble} heading={'UI/UX'} detail={"Figma,sketch,Photoshop"}/>             
+              <Card emoji={Humble} heading={'Automation & Development Tools'} detail={"Selenium Webdriver, TestNG, GitHub"}/>             
            </motion.div>
            <div className="blur s-blur2" style={{background:'var(--purple)'}}></div>
        </div>

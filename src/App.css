@@ -37,7 +37,7 @@
 }
 
 
-@media screen and (max-wdith:480px)  {
+@media (max-width: 500px) {
   .App{
     padding: 0.5rem 1rem;
   }

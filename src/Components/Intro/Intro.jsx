@@ -31,9 +31,9 @@ const Intro = () => {
             </div>
             <button className="button i-button">Hire Me</button>
             <div className="i-icons">
-                <img src={Github} alt=''></img>
+            <a href='https://github.com/Yuvaraj-96' target="_blank" rel="noreferrer"> <img src={Github} alt=''></img></a>
                 <img src={Instagram} alt=''></img>
-                <img src={Linkedin} alt=''></img>
+                <a href='https://www.linkedin.com/in/yuvaraj-poobalan-796769145/' target="_blank" rel="noreferrer"> <img src={Linkedin} alt=''></img></a>
             </div>
         </div>
         <div className="i-right">        
@@ -49,14 +49,18 @@ const Intro = () => {
                 initial={{top:'-4%',left:'74%'}}
                 whileInView={{left:'68%'}}
                 transition={transition}
-                style={{top:'-4%', left:'68%'}}>
+                style={{top:'-4%', left:'68%'}}
+                className='floating-div'
+                >
                     <FloatingDiv image={crown} txt1='web' txt2='Developer'></FloatingDiv>
                 </motion.div>
                 <motion.div
                 initial={{top:'18rem',left:'9rem'}}
                 whileInView={{left:'0rem'}}
                 transition={transition}
-                style={{top:'18rem', left:'2rem'}}>
+                style={{top:'18rem', left:'2rem'}}
+                className='floating-div'
+                >
                     <FloatingDiv image={thumbup} txt1='Best Design' txt2='Award'></FloatingDiv>
                 </motion.div>
                 <div className='blur' style={{background:'rgb(238 210 255)'}}></div>
